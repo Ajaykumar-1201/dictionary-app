@@ -42,7 +42,7 @@ function WordDetails() {
   return (
     <div className='home-detail'>
         {/* <h1>Home Page</h1> */}
-      <Link to="/"><h2>Navigate Back to Home</h2></Link>
+      <Link to="/dictionary-app"><h2>Navigate Back to Home</h2></Link>
       <h1>{wordDetails.word}</h1>
       {wordDetails.phonetics && (
         <div className="">

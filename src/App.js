@@ -13,7 +13,7 @@ function App() {
     <Provider store={store}>
       <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/dictionary-app" element={<Home />} />
           <Route path="/history" element={<History />} />
           <Route path="/word/:word" element={<WordDetails />} />
         </Routes>
